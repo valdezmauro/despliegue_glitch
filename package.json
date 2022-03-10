@@ -2,10 +2,10 @@
   "name": "serveruno",
   "version": "1.0.0",
   "description": "aprendiendo",
-  "main": "index.js",
+  "main": "index_express.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node index_express.js",
+    "dev": "nodemon index_express.js",
     "start": "node index_express.js"
   },
   "keywords": [
