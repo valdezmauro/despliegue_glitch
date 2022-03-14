@@ -10,7 +10,7 @@ app.get("/", (req, res, next)=>{
 })
 
 app.get("/visitas", (req, res, next)=>{
-    contador++;s
+    contador++;
     res.send(`Han visitado la pagina ${contador} veces`);
 })
 
